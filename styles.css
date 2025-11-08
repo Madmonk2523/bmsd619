@@ -224,6 +224,15 @@ body {
     background-clip: text;
 }
 
+.hero-username {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--gold);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 300;
@@ -817,6 +826,10 @@ body {
         font-size: 3.5rem;
     }
 
+    .hero-username {
+        font-size: 1.5rem;
+    }
+
     .hero-subtitle {
         font-size: 1.2rem;
     }
@@ -862,6 +875,10 @@ body {
     .hero-title {
         font-size: 2.5rem;
         letter-spacing: 2px;
+    }
+
+    .hero-username {
+        font-size: 1.3rem;
     }
 
     .hero-subtitle {
