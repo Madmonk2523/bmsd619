@@ -41,10 +41,13 @@ body {
 .section {
     padding: 5rem 0;
     position: relative;
+    background-color: var(--black);
+    z-index: 10;
 }
 
 .section-dark {
     background-color: var(--charcoal);
+    z-index: 10;
 }
 
 .section-title {
@@ -180,6 +183,7 @@ body {
     position: relative;
     background: linear-gradient(135deg, var(--black) 0%, var(--charcoal) 100%);
     overflow: hidden;
+    z-index: 1;
 }
 
 .hero::before {

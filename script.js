@@ -189,18 +189,17 @@ if (footerYear && footerYear.textContent.includes('2025')) {
 }
 
 // ===================================
-// Parallax Effect on Hero Section
+// Parallax Effect on Hero Section (Disabled to fix overlay)
 // ===================================
-const hero = document.querySelector('.hero');
-
-window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
-    const parallaxSpeed = 0.5;
-    
-    if (hero && scrolled < hero.offsetHeight) {
-        hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
-    }
-});
+// Commented out to prevent hero section overlap issues
+// const hero = document.querySelector('.hero');
+// window.addEventListener('scroll', () => {
+//     const scrolled = window.pageYOffset;
+//     const parallaxSpeed = 0.5;
+//     if (hero && scrolled < hero.offsetHeight) {
+//         hero.style.transform = `translateY(${scrolled * parallaxSpeed}px)`;
+//     }
+// });
 
 // ===================================
 // Add Loading Animation
